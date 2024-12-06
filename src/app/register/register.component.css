@@ -1,54 +1,62 @@
-/* Container styles for the form */
-form {
-    max-width: 400px;
-    margin: 2rem auto;
-    padding: 2rem;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Input field styles */
-  input[type="text"],
-  input[type="password"] {
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    outline: none;
-    margin-bottom: 1rem;
-    transition: border-color 0.3s ease;
-  }
-  
-  input[type="text"]:focus,
-  input[type="password"]:focus {
-    border-color: #007bff;
-  }
-  
-  /* Button styles */
-  button[type="submit"] {
-    width: 100%;
-    padding: 0.75rem;
-    background-color: #007bff;
-    color: white;
-    font-size: 1.1rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Error message styles */
-  p {
-    color: #d9534f;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 1rem;
-  }
-  
+/* Container styling for the register form */
+.register-container {
+  background-color: #ecf0f1; /* Light gray */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto; /* Centered in the main content */
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #34495e; /* Dark gray-blue */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bdc3c7; /* Light gray-blue */
+  border-radius: 4px;
+  font-size: 16px;
+  color: #2c3e50; /* Dark blue-gray */
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #1abc9c; /* Teal */
+  outline: none;
+}
+
+/* Register button styling */
+.register-button {
+  background-color: #1abc9c; /* Teal */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: #16a085; /* Darker teal */
+}
+
+/* Error message styling */
+.error-message {
+  color: #e74c3c; /* Red */
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
